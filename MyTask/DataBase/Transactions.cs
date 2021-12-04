@@ -30,17 +30,5 @@ namespace MyTask
         public string brand { get; set; }
         public string stack { get; set; }
         public string customerName { get; set; }
-
-
-
-        public class TransactionsDetails
-        {
-            [Key]
-            [Required]
-            public int id { get; set; }
-            public string value { get; set; }
-            public string type { get; set; }
-            public string name { get; set; }
-        }
     }
 }

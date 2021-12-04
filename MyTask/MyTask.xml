@@ -4,7 +4,7 @@
         <name>MyTask</name>
     </assembly>
     <members>
-        <member name="M:MyTask.Controllers.CreateController.CreateTransactions(System.Int32,System.Int32,System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+        <member name="M:MyTask.Controllers.CreateController.CreateTransactions">
             <summary>
             CreateTransactions
             </summary>

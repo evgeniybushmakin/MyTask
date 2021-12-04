@@ -21,12 +21,9 @@ namespace MyTask.Controllers
         /// </summary>
         /// <returns>Created transaction</returns>
         [HttpPut]
-        public void CreateTransactions(int id, int accountId, string userName, DateTime transDateTime, DateTime lastUpdateDateTime, string brand, string stack, string customerName)
+        public void CreateTransactions()
         {
-            Transactions trn = new Transactions(id, accountId, userName, transDateTime, lastUpdateDateTime, brand, stack, customerName);
-
-            unitOfWork.Transactions.Create(trn);
-            unitOfWork.Save();
+            
         }
     }
 }
