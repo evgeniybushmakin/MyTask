@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTask</name>
+    </assembly>
+    <members>
+        <member name="M:MyTask.Controllers.CreateController.CreateTransactions(System.Int32,System.Int32,System.String,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+            <summary>
+            CreateTransactions
+            </summary>
+            <returns>Created transaction</returns>
+        </member>
+        <member name="M:MyTask.Controllers.DeleteController.DeleteTransactionsById(System.Int32)">
+            <summary>
+            DeleteTransactionsById
+            </summary> 
+            <returns>Deleted transaction by identify</returns>
+        </member>
+        <member name="M:MyTask.Controllers.GetByIdController.GetTransacionById(System.Int32)">
+            <summary>
+            GetTransacionsById
+            </summary>
+            <returns>Transaction by identify</returns>
+        </member>
+        <member name="M:MyTask.Controllers.GetByTheGapController.GetTransactionsByTheGap">
+            <summary>
+            GetTransactionsByTheGap
+            </summary>
+            <returns>Transactions in the gap</returns>
+        </member>
+        <member name="M:MyTask.Controllers.SaveController.SaveTransaction">
+            <summary>
+            SaveTransaction
+            </summary>
+            <returns>Saved transaction in database</returns>
+        </member>
+        <member name="M:MyTask.Controllers.UpdateController.UpdateTransactions">
+            <summary>
+            UpdateTransactions
+            </summary>
+            <returns>Updated transaction</returns>
+        </member>
+    </members>
+</doc>
